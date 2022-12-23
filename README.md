@@ -1,2 +1,2 @@
 # yt-stats
-YouTube Stats
+Access YouTube Channel statistics for channels and videos
