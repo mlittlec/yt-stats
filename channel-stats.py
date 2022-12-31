@@ -14,4 +14,4 @@ pl_request = youtube.playlists().list(
 
 pl_response = pl_request.execute()
 
-print(response)
+print(pl_response)
