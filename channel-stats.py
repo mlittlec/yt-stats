@@ -7,7 +7,7 @@ youtube = build('youtube', 'v3', developerKey=api_key)
 
 pl_request = youtube.playlists().list(
 #request = youtube.channels().list(
-    part="contentDetails, statistics",
+    part="contentDetails, snippet",
     channelId="<channel-id-queried"
     #forUsername="schafer5"
 )
