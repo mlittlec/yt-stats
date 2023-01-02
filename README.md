@@ -14,3 +14,9 @@ Several prerequisites are required to be in place prior to attempting to execute
 - use the **Google API:** By looking at the [developers.google.com](https://developers.google.com/youtube/v3) for video, or [here](https://develops.google.com/outube/v3/docs/channels)
 
 
+## References
+
+Looked at the YouTube Channel video series for inspiration/direction:
+
+- Corey Scheafer - https://www.youtube.com/watch?v=coZbOM6E47I&t=234s
+- Patrick Loeber - https://www.youtube.com/watch?v=5qtC-tsQ-wE&t=1015s
