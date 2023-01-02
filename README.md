@@ -16,7 +16,15 @@ Several prerequisites are required to be in place prior to attempting to execute
 
 ## References
 
-Looked at the YouTube Channel video series for inspiration/direction:
+<details>
+  <summary>YouTube</summary>
 
-- Corey Scheafer - https://www.youtube.com/watch?v=coZbOM6E47I&t=234s
-- Patrick Loeber - https://www.youtube.com/watch?v=5qtC-tsQ-wE&t=1015s
+  Looked at the YouTube Channel video series for inspiration/direction:
+
+  - Corey Scheafer - https://www.youtube.com/watch?v=coZbOM6E47I&t=234s
+  - Patrick Loeber - https://www.youtube.com/watch?v=5qtC-tsQ-wE&t=1015s
+
+</details>  
+<br/>
+
+More to follow later...
