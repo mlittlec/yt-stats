@@ -40,7 +40,7 @@ seconds_pattern = re.compile(r'(\d+)S')
 # first 50 videos only
 
 for item in vid_response['items']:
-    duration = tem['contentDetails']['duration']
+    duration = item['contentDetails']['duration']
 
     hours = hours_pattern.search(duration)
     minutes = minutes_pattern.search(duration)
