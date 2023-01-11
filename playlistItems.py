@@ -1,5 +1,6 @@
 import os
 import re
+from datetime import timedelta
 from googleapiclient.discovery import build
 
 api_key = os.environ.get('YT_API_KEY')
@@ -46,7 +47,18 @@ for item in vid_response['items']:
     minutes = minutes_pattern.search(duration)
     seconds = seconds_pattern.search(duration)
 
+    hours = int(hours.group(1)) # these values apply something called a ternary conditional statement (see below) 
+    minutes = int(minutes.group(1)) if minutes else 0 # this ensures the value doesn't return an error by replacing a NULL value with zero
+    seconds = int(seconds.group(1))
+
+    video_seconds = timedelta(
+            hours = hours,
+            minutes = minutes,
+            seconds = seconds
+    ).total_seconds()
+
     print(item)
     print(duration)
     print(hours, minutes, seconds)
+    print(video_seconds)
     print()
