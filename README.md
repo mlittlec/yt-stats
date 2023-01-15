@@ -3,6 +3,7 @@ Access YouTube Channel statistics for channels and videos
 
 A small program making it easier to retrieve, and collate, the team's statistics beginning with accessing YouTube statistics.
 
+A link to Corey Schefer's code snippets (which inspired this effort): https://github.com/CoreyMSchafer/code_snippets/tree/master/Python/YouTube-API
 ## Requirements
 
 Several prerequisites are required to be in place prior to attempting to execute these scripts.
