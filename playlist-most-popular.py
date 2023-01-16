@@ -67,7 +67,7 @@ while True:
 
 videos.sort(key=lambda vid: vid['views'], reverse=True)
 
-for video in videos:
-    print(video['url']. video['views'])
+for video in videos:    # How to return, say, the Top 10 videos -for video in videos[:10]:
+    print(video['url'], video['views'])
 
 print(len(videos))
